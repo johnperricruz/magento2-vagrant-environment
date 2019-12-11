@@ -1,6 +1,6 @@
 # Magento 2 Vagrant Environment
 ```sh
-$ https://github.com/johnperricruz/magento2-vagrant-environment.git
+$ git clone https://github.com/johnperricruz/magento2-vagrant-environment.git
 ```
 Local Details : 
 
