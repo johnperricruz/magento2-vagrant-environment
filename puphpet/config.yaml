@@ -45,13 +45,13 @@ vagrantfile:
                 group: vagrant
                 source: ./shared
                 target: /var/www/magento2.2/shared
-                sync_type: default
+                sync_type: nfs
             magento2.2_files:
                 owner: vagrant
                 group: vagrant
                 source: ./magento2.2
                 target: /var/www/magento2.2/public_html
-                sync_type: default
+                sync_type: nfs
                 smb:
                     smb_host: ''
                     smb_username: ''
