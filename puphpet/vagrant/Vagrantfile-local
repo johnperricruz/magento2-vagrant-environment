@@ -92,7 +92,7 @@ machines.each do |i, machine|
     end
 
     if chosen_virtualizer.empty? || chosen_virtualizer == 'virtualbox'
-      mount_options_virtualizer = ['rw', 'dmode="777"', 'fmode="666"']
+      mount_options_virtualizer = ['rw', 'dmode="777"', 'fmode="666"', 'vers=3', 'tcp', 'fsc' ,'actimeo=1']
     elsif chosen_virtualizer == 'parallels'
       mount_options_virtualizer = ['rw', 'share']
     else
